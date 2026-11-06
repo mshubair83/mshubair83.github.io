@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Shubair | IT Specialist</title>
+    <link rel="stylesheet" href="mainEN.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/svgs/solid/laptop-code.svg">
+</head>
+<body>
+    <div class="container">
+        <img src="profile.jpg" alt="Muhammad Shobair" class="profile-img">
+        <h1>Mohammed Shubair</h1>
+        <p class="jop-title">IT Specialist & Aspiring Web Developer</p>
+        <p class="bio">
+            Over 12 years of experience in system administration, networking, and technical support across healthcare and hospitality sectors. Currently expanding my skills in front-end web development.
+        </p>
+
+        <h2>Technical Skills</h2>
+        <ul class="skills-list">
+            <li><strong>Web Development:</strong> HTML5, CSS3 (JavaScript coming soon)</li>
+            <li><strong>Systems & Networking:</strong> Windows Server, Active Directory, DNS, DHCP, GPO</li>
+            <li><strong>Network Security:</strong> Kaspersky Security, FortiGate, Sophos, Mikrotik</li>
+            <li><strong>IT Support & Systems:</strong> IT Support, Help Desk Management, Veeam Backup</li>
+        </ul>
+
+        <h2>Professional Experience</h2>
+        <div class="experience-item">
+            <h3>Support Supervisor - I Content, Jeddah</h3>
+            <p class="period">November 2025 - Present</p>
+            <p>Managing Windows systems maintenance, monitoring local area network (LAN) performance, and resolving connectivity issues with high efficiency.</p>
+        </div>
+        <div class="experience-item">
+            <h3>System Administrator - Dr. Erfan & Bagedo General Hospital, Jeddah</h3>
+            <p class="period">July 2021 - August 2025</p>
+            <p>Managed server infrastructure, supervised information security projects (Kaspersky), and ensured 24/7 continuity of medical systems.</p>
+        </div>
+
+        <h2>Education</h2>
+        <p><strong>Bachelor in Communications (Public Relations):</strong> King Abdulaziz University, Jeddah (2013)</p>
+        <p><strong>Diploma in Computer Science (Network Technology):</strong> Continuous daily learning and practical application.</p>
+        <p><strong>Professional Certifications:</strong> CCNA, MCSA, Kaspersky Certified</p>
+
+        <!-- Download CV Button -->
+        <div class="download-section">
+            <a href="Mohammed_Shubair_CV.pdf" target="_blank" download="Mohammed_Shubair_CV.pdf" class="download-btn">
+                <i class="fas fa-download"></i> Download CV (PDF)
+            </a>
+        </div>  
+
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <div class="social-links">
+                <!-- Secure WhatsApp Link -->
+                <a href="https://wa.me/966562500063?text=Hello%20Mohammed,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect." target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                
+                <!-- Encrypted Email Link -->
+                <a href="#" onclick="openEmail(event)" title="Email"><i class="fas fa-envelope"></i></a>
+                
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/mshubair/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                
+                <!-- GitHub -->
+                <a href="https://github.com/" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openEmail(e) {
+            e.preventDefault();
+            var user = "mshubair";
+            var domain = "outlook.com";
+            window.location.href = "mailto:" + user + "@" + domain;
+        }
+    </script>
+</body>
+</html>
